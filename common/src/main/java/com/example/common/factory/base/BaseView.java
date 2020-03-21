@@ -12,3 +12,4 @@ public interface BaseView<T> {
     void showError(int string);
 
 }
+

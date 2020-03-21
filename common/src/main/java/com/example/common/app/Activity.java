@@ -25,7 +25,7 @@ public abstract class Activity extends AppCompatActivity {
         initWindows();
         if(initArgs(getIntent().getExtras())) {
             //布局设置到界面中
-            int layoutId = getContentLayotId();
+            int layoutId = getContentLayoutId();
             setContentView(layoutId);
             initWidget();
             initData();
@@ -54,7 +54,7 @@ public abstract class Activity extends AppCompatActivity {
      * 得到当前界面资源文件Id
      * @return Id
      */
-    protected abstract int getContentLayotId();
+    protected abstract int getContentLayoutId();
 
     /**
      * 初始化控件

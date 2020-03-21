@@ -3,7 +3,6 @@ package com.example.factory.presenter.account;
 import com.example.common.factory.base.BaseContract;
 import com.example.common.factory.base.BasePresenter;
 import com.example.common.factory.base.BaseView;
-import com.google.gson.Gson;
 
 /**
  * @author brsmsg

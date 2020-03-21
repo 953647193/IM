@@ -11,7 +11,7 @@ public class LaunchActivity extends Activity {
 
 
     @Override
-    protected int getContentLayotId() {
+    protected int getContentLayoutId() {
         return R.layout.activity_launch;
     }
 

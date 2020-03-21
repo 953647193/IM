@@ -30,7 +30,7 @@ public class AccountActivity extends Activity implements FragmentTrigger {
     //注册Presenter
     private RegisterPresenter mRegisterPresenter;
 
-    /**
+     /**
      * AccountActivity  显示入口
      * @param context
      */
@@ -40,7 +40,7 @@ public class AccountActivity extends Activity implements FragmentTrigger {
 
 
     @Override
-    protected int getContentLayotId() {
+    protected int getContentLayoutId() {
         return R.layout.activity_account;
     }
 

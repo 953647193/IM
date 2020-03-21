@@ -14,7 +14,7 @@ public interface RegisterContract extends BaseContract {
         void registerSuccess();
     }
 
-    interface Presenter extends BasePresenter{
+    interface Presenter extends BasePresenter {
         //用户行为记录
         void behaviorRecord();
 

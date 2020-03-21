@@ -24,6 +24,7 @@ public class RegisterPresenter implements RegisterContract.Presenter{
 
     private RegisterContract.View mRegisterView;
 
+    //View与Presenter绑定
     public RegisterPresenter(RegisterContract.View registerView){
         mRegisterView = registerView;
         mRegisterView.setPresenter(this);
