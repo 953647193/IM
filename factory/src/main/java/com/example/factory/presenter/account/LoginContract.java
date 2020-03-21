@@ -13,7 +13,6 @@ public interface LoginContract extends BaseContract {
     interface View extends BaseView<Presenter>{
         //登录成功
         void loginSuccess();
-
     }
 
     interface Presenter extends BasePresenter{

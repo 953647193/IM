@@ -12,10 +12,4 @@ public class MessageFragment extends Fragment {
     protected int getContentLayoutId() {
         return R.layout.fragment_message;
     }
-
-    @Override
-    protected void initData() {
-        super.initData();
-
-    }
 }

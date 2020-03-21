@@ -14,7 +14,6 @@ import androidx.fragment.app.FragmentManager;
 
 import com.example.common.app.Activity;
 import com.example.common.app.Fragment;
-import com.example.factory.presenter.contact.ContactPresenter;
 import com.example.instantMessaging.Fragments.main.ContactFragment;
 import com.example.instantMessaging.Fragments.main.MessageFragment;
 import com.example.instantMessaging.Fragments.main.MomentFragment;
@@ -34,8 +33,6 @@ public class MainActivity extends Activity
     private ContactFragment mContactFragment;
     //朋友圈界面
     private MomentFragment mMomentFragment;
-
-    private ContactPresenter mContactPresenter;
 
     @BindView(R.id.bottom_bar)
     BottomNavigationView mBottomBar;
@@ -78,8 +75,6 @@ public class MainActivity extends Activity
                 if(mContactFragment == null){
                     mContactFragment = new ContactFragment();
                 }
-                //创建联系人presenter实例
-                mContactPresenter = new ContactPresenter(mContactFragment);
                 changeFragment(mContactFragment);
                 Log.d("testBottomVav", "contact");
                 return true;
@@ -114,6 +109,5 @@ public class MainActivity extends Activity
 
 
     }
-
 
 }
